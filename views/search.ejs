@@ -1,0 +1,17 @@
+<%-include("partials/header")%>
+<div id="searchBar">
+	<!-- <h1 class="ui huge header">
+	Search a Song name!!
+	</h1> -->
+	<form action="/song" method="GET">
+		<div class="ui action input">
+			<input type="text" name="songName" placeholder="Search Song..." style="border-top-left-radius: 45px;border-bottom-left-radius: 45px;">
+			<button class="ui button" style="border-top-right-radius: 60px;border-bottom-right-radius: 60px;">
+				<i class="search icon" style="font-size: 20px;"></i>
+			</button>
+		</div>
+	</form>
+</div>
+	
+
+<%-include("partials/footer")%>

@@ -1,0 +1,34 @@
+body{
+ 	background-image:url("https://hdwallsource.com/img/2019/4/spotify-music-wallpaper-67729-70048-hd-wallpapers.jpg");
+	background-size:cover;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.thumbnail img{
+	width: 100%;
+}
+
+.thumbnail{
+	padding: 0;
+}
+.caption-full{
+	padding:9px;
+}
+.pull-right{
+	font-size: 30px;
+    padding-right: 30px;
+	color:#F5F5F5;
+}
+
+.jumbotron{
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+#searchBar{
+	font-size: 25px;
+	padding-top:480px;
+	text-align:center;
+}

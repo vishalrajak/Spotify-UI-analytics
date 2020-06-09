@@ -1,0 +1,16 @@
+<%-include("partials/header")%>
+<!-- <div class="bg-image"></div> -->	
+<div class="container">
+		<div class="caption pull-right">
+			<p><strong>Album Name : </strong><%=track_details.album.name%></p>
+			<strong>Artists : </strong><%=track_details.artists[0].name%>
+		<div class="row text-center" style="display:flex; flex-wrap:wrap">
+			<div class="col-sm-9">
+				<div class="thumbnail">
+					<img src=<%=track_details.album.images[0].url%>>
+				</div>
+			</div>
+		</div>	
+</div>
+
+<%-include("partials/footer")%>
