@@ -1,6 +1,5 @@
 var express=require("express");
 var app=express();
-var access_token="";
 var request=require("request");
 var bodyParser=require("body-parser");
 var data={'grant_type':'client_credentials'}
