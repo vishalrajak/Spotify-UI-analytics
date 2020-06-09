@@ -1,0 +1,1 @@
+////Ch ecking Git staging
