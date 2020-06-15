@@ -16,7 +16,7 @@ app.use(express.static("public"));
 
 app.get("/",function(req,res){
 	if (++c == 1){
-	console.log("bhhhsa");
+	console.log("check block");
 	request.post({url: "https://accounts.spotify.com/api/token",form:data,headers:headers,method:'POST'},
 	function(err,reponse,body){
 				var data=JSON.parse(body);
